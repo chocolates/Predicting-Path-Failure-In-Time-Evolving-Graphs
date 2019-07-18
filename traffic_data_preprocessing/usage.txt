@@ -1,0 +1,7 @@
+We release the code to preprocess the original data and generate the input saved in ../DATA/ folder. The original data, which is downloaded from http://pems.dot.ca.gov, exceeds the limit of github. So we upload the original data in google drive: https://drive.google.com/open?id=1ZuIzqGAlgCGgCgfQ8zIrhucmkohk2MGM .
+
+
+How to use the code.
+(1) Download and unzip the original data saved in google drive.
+(2) Run 'python data_processing.py'. It will generate the 'path_label.pkl', 'input_feature.pkl' and the 'output.pkl'.
+(3) Run 'python generate_adj_list.py'. Then it will generate the 'adj_list.pkl'. 
